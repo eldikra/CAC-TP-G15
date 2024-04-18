@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
+body{
+    background-color: black;
+}    
+        .top_header{
+            height: 40px;
+            width: 100%;
+          } 
+            .top_header .acceso a{
+              display: flex;
+              font-size: 20px;
+              margin-left: 20px;
+              font-family: 'Bebas Neue', sans-serif;
+              text-decoration: none;
+              color: white;
+
+            }  
+              .top_header .acceso a:hover{
+                color:rgb(255, 219, 18);}
+    .header{
+            background-image: url(/static/img/Cine.jpg) ;
+            height: 150px;     
+        } 
+                    .logo{
+                        display: flex;
+                        padding: 15px;
+                        width: 120px;
+                        height: 150px;
+                        }
+                        .logo img{
+                            cursor:pointer;
+                            transition: all 0.3s;
+                        }
+                        .logo img:hover{
+                            transform: scale(0.9);
+                        }
+                            .navbar{
+                                display: flex;
+                                width: 100%;
+                                list-style: none;
+                                padding: 0px;
+
+                            }   
+                                .navbar li{
+                                    flex: auto;
+                                    text-align: center;
+                                   padding: 5px;
+                                   background-color: rgb(255, 191, 16);
+                                   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                                }   
+                                    .navbar li a{
+                                        color: black;
+                                        font-size: 18px;
+                                        text-decoration: none;
+                                    }   
+                                        .navbar li:hover{
+                                            background-color: white;
+                                        }
+               
+      .noticia_trailer{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding: 40px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+           }
+         .noticia_trailer .video_detalle {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 22px;
+                    padding: 40px;
+                    margin: 0px 10px 10px 0px;  
+              }
+              .noticia_trailer .video_detalle a {
+                    text-decoration: none;
+                    color: white;
+                }
+                .noticia_trailer .video_detalle a:hover{
+                    color: rgb(255, 191, 16);
+                }
+    .Noticias{
+        color: white;
+        margin-left: 60px;
+        font-size: 20px;
+    }
+        hr{
+            color: rgb(255, 191, 16);
+            height: 3px;
+            margin-left: 50px;
+            margin-right: 450px;
+        }
+        .noticias_central{
+            background-color: rgb(255, 191, 16);
+            margin-right: 400px;
+            margin-left: 40px;
+            border-radius: 20px;
+            padding: 5px;
+        }
+        .noticias1{
+            margin-top: 15px;
+            display:grid;
+            grid-template-columns: repeat(2,2fr);
+            margin-left: 30px;
+            margin-right: 360px; 
+
+          }
+            .noticia_principal{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;           
+            }
+                .noticia_principal img{
+                    border-radius: 8px;
+                    padding: 0;
+                    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                }
+                    .noticia_principal a{
+                        display: flex;
+                        justify-content: center;
+                        color: black;
+                        text-decoration: none;
+                        font-size:16px;
+                        padding: 10px;
+                    }       
+                        .noticia_principal a:hover{
+                            color: rgb(255, 255, 255);
+                        }   
+
+                        .noticias_central aside{
+                            position:absolute;
+                            left: 900px;
+                            border: white solid;
+                            /*transform: translate(20%, 50%);
+                            transition: transform 5s ease;*/
+                        }   
+        .Publicidad_estreno2 img{
+                position:absolute;
+                height: 580px;
+                left: 900px;
+                border: white solid;
+}
+    .mapa_cines {
+        color: rgb(255, 191, 16);
+        width: 900px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        margin-bottom: 30px;
+        }
+            .mapa_cines h1{
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+            }
+                .mapa_cines h4{
+                font-size: 20px;
+                    }
+                    .redes{
+                        display: flex;
+                        margin-top: 0px;
+                        justify-content: center;
+                     }
+                    .redes .social_redes li{
+                        display: inline;
+                        list-style: none;
+                        flex: auto;
+                        padding: 40px;
+                        text-align:center; 
+                        font-size: 15px; 
+                     }
+                        .redes .social_redes li a{
+                        color: white;
+                        text-decoration: none;
+                        }
+                        .redes .social_redes a:hover{
+                        color: rgb(255, 191, 16);
+                        }
+                            .final{
+                                border: rgb(255, 191, 16) solid;
+                                margin-top: 50px;
+                            background-image: url(/static/img/Cine.jpg);
+                                    }
+                                      .logo_footer{  
+                                        display:flex;
+                                        width: 100%;
+                                        height: 200px;
+                                        justify-content: center;
+                                        margin-bottom: -130px;          
+                                      }
+                                      .logo_footer img{
+                                        margin-top: 30px;
+                                        cursor:pointer;
+                                        transition: all 0.3s;
+                                        width: 100px;  
+                                        height: 100px;
+                                    }
+                                      .logo_footer img:hover{
+                                       transform: scale(0.9);
+                                    }
+                                
+                                      .nosotros{
+                                        display: flex;
+                                        justify-content: space-between;
+                                        color: rgb(255, 191, 16);
+                                      } 
+                                        .nosotros1 li a{
+                                          list-style: none;
+                                          text-decoration:none;
+                                          font-size: 20px;
+                                        
+                                        }
+                                        .nosotros1 p{
+                                        margin-top: 100px;
+                                        }                       
