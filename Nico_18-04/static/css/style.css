@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none; /* Elimino el subrayado de los enlaces */
+}
+
+.navbar{
+    /* position: fixed; */
+    width: 100%;
+}
+
+.list-navbar{
+    list-style-type: none;  /* Sin punto en cada item */
+    display: inline;        /* Muestra los elementos en linea */
+    margin-right: 10px;     /* Espacio entre elementos */
+}
+
+h1{
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.movie-img{
+    width: 300px;
+    height: 400px;
+}
+
+.container-lastest-reviews{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: #FFF;
+}
+
+.info-nosotros{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.a-info-pagina{
+    color: #FFF;
+}
+
+.nuestras-redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
